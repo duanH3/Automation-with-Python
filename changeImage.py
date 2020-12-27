@@ -12,4 +12,4 @@ for pic in os.listdir(path):
     try:
       Image.open(path + pic).convert("RGB").resize(size).save(outfile,"JPEG")
     except IOError:
-      print("cannot convert", pic)
+      print("cannot convert", pic) 
