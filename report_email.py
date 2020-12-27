@@ -18,7 +18,6 @@ def process_data(path):
 
 def main(argv):
   """Process the file data from path and generate a full report out of it."""
-
   # TODO: read data from txt
   path = "supplier-data/descriptions/"
   summary = process_data(path)
