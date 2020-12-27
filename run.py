@@ -6,6 +6,7 @@ url = "http://localhost/fruits/"
 path = "supplier-data/descriptions/"
 
 list_of_files = os.listdir(path)
+
 for file in list_of_files:
     if file.endswith("txt"):
         with open(path + file, "r") as f:
