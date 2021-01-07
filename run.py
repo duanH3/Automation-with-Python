@@ -2,7 +2,7 @@
 import os
 import requests
 
-url = "http://localhost/fruits/"
+url = "http://localhost/items/"
 path = "supplier-data/descriptions/"
 
 list_of_files = os.listdir(path)
