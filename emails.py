@@ -32,3 +32,6 @@ def send(message):
   mail_server = smtplib.SMTP('localhost')
   mail_server.send_message(message)
   mail_server.quit()
+
+  
+  
