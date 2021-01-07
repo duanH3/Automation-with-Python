@@ -10,7 +10,7 @@ Finally, in parallel to the automation running, we want to check the health of t
 What you'll do
 
 #TODO    
-1) Write a script that summarizes and processes sales data into different categories
+1) Write a script that summarizes and processes sales data into different categories and upload the descriptions 
 2) Generate a PDF using Python
 3) Automatically send a PDF by email
 5) Write a script to check the health status of the system
