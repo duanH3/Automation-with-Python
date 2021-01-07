@@ -1,2 +1,2 @@
 
-* * * * * /home/student-04-9abe0a3a7348/health_check.py
+* * * * * /home/user-9abe0a3a7348/health_check.py
