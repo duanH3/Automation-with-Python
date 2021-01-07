@@ -32,8 +32,8 @@ def main(argv):
   # TODO: send the PDF report as an email attachment
   sender = "me@example.com"
   receiver = "automation@example.com"
-  subject = "Upload Completed - Online Fruit Store"
-  body = "All fruits are uploaded to our website successfully. A detailed list is attached to this email."
+  subject = "Upload Completed - Online Store"
+  body = "All items are uploaded to our website successfully. A detailed list is attached to this email."
   message = emails.generate_email(sender, receiver, subject, body, attachment)
   emails.send(message)
 
