@@ -30,8 +30,8 @@ def main(argv):
   reports.generate_report(attachment, title, summary) #create file
 
   # TODO: send the PDF report as an email attachment
-  sender = "automation@example.com"
-  receiver = "student-04-9abe0a3a7348@example.com"
+  sender = "me@example.com"
+  receiver = "automation@example.com"
   subject = "Upload Completed - Online Fruit Store"
   body = "All fruits are uploaded to our website successfully. A detailed list is attached to this email."
   message = emails.generate_email(sender, receiver, subject, body, attachment)
