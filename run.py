@@ -16,3 +16,6 @@ for file in list_of_files:
             dic = {"name":data[0], "weight":int(data[1].strip(" lbs")), "description":data[2], "image_name":file_name+".jpeg"}
             response = requests.post(url, json=dic)
             print(response.status_code)
+
+            
+            
